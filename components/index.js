@@ -5,3 +5,4 @@ export { default as SmallCard } from "./SmallCard.jsx";
 export { default as MediumCard } from "./MediumCard.jsx";
 export { default as LargeCard } from "./LargeCard.jsx";
 export { default as Footer } from "./Footer.jsx";
+export { default as InfoCard } from "./InfoCard.jsx";
