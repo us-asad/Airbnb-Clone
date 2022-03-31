@@ -88,7 +88,7 @@ const footerLinks = [
 				link: "/"
 			},
 			{
-				name: "Messagener",
+				name: "Connect to Services",
 				link: "/"
 			},
 			{
@@ -111,7 +111,7 @@ export default function Footer() {
 					<h5 className="font-bold">{title}</h5>
 					{links.map(({name, link}, index) => (
 						<Link key={index} href={link}>
-							<a className="block">{name}</a>
+							<a className="block hover:text-blue-500 transition duration-200">{name}</a>
 						</Link>
 					))}
 				</div>
