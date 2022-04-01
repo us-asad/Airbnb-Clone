@@ -33,4 +33,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-// pk.eyJ1IjoiYXNhZGRldiIsImEiOiJjbDFldzl1bHQwdm52M2NucjV1Z2dxYjk4In0.pWndVqWASZ2jJgSk4Cejsg
