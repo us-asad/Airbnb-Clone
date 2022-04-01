@@ -7,3 +7,20 @@
 		@apply px-5 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out;
 	}
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #fe595e;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #e98588;
+}

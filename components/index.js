@@ -6,3 +6,5 @@ export { default as MediumCard } from "./MediumCard.jsx";
 export { default as LargeCard } from "./LargeCard.jsx";
 export { default as Footer } from "./Footer.jsx";
 export { default as InfoCard } from "./InfoCard.jsx";
+export { default as Map } from "./Map.jsx";
+export { default as Spinner } from "./Spinner.jsx";

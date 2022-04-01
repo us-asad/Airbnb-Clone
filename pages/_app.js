@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Router from "next/router";
 import ProgressBar from "@badrap/bar-of-progress";
 import { Footer } from "components";
@@ -18,7 +19,13 @@ Router.events.on("routeChangeError", progress.finish);
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<div className="selection:bg-red-400 selection:text-white">
+		<div className="selection:bg-red-400 selection:text-white overflow-x-hidden">
+			<Head>
+				<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+				<link rel="manifest" href="/favicons/site.webmanifest" />
+			</Head>
 			<Component {...pageProps} />
 			<Footer />
 		</div>
@@ -26,3 +33,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+// pk.eyJ1IjoiYXNhZGRldiIsImEiOiJjbDFldzl1bHQwdm52M2NucjV1Z2dxYjk4In0.pWndVqWASZ2jJgSk4Cejsg
